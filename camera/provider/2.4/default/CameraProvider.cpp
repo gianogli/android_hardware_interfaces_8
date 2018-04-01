@@ -311,6 +311,8 @@ int CameraProvider::checkCameraVersion(int id, camera_info info) {
 
 bool CameraProvider::setUpVendorTags() {
     ATRACE_CALL();
+    return true;
+#if 0
     vendor_tag_ops_t vOps = vendor_tag_ops_t();
 
     // Check if vendor operations have been implemented
@@ -363,6 +365,7 @@ bool CameraProvider::setUpVendorTags() {
         mVendorTagSections[s].tags = tagsBySection[s];
     }
     return true;
+#endif
 }
 
 // Methods from ::android::hardware::camera::provider::V2_4::ICameraProvider follow.
