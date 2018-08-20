@@ -543,6 +543,9 @@ public:
     // Example values: "lowlight,hdr".
     static const char KEY_LIGHTFX[];
 
+    static const char KEY_RECORD_STRIDE[];
+    static const char KEY_RECORD_SLICE_HEIGHT[];
+
     // Value for KEY_ZOOM_SUPPORTED or KEY_SMOOTH_ZOOM_SUPPORTED.
     static const char TRUE[];
     static const char FALSE[];
@@ -616,6 +619,12 @@ public:
     // image in some fashion. Only the final image is returned.
     static const char SCENE_MODE_HDR[];
 
+    static const char SCENE_MODE_AQUA[];
+    static const char SCENE_MODE_BACKLIGHT[];
+    static const char SCENE_MODE_DUSKDAWN[];
+    static const char SCENE_MODE_FALLCOLOR[];
+    static const char SCENE_MODE_TEXT[];
+
     // Pixel color formats for KEY_PREVIEW_FORMAT, KEY_PICTURE_FORMAT,
     // and KEY_VIDEO_FRAME_FORMAT
     static const char PIXEL_FORMAT_YUV422SP[];
@@ -630,6 +639,13 @@ public:
     static const char PIXEL_FORMAT_BAYER_RGGB[];
     // Pixel format is not known to the framework
     static const char PIXEL_FORMAT_ANDROID_OPAQUE[];
+
+    static const char PIXEL_FORMAT_YUV420SPNV12[];
+    static const char PIXEL_FORMAT_YVU422SP[];
+    static const char PIXEL_FORMAT_YVU422P[];
+    static const char PIXEL_FORMAT_YVU420SP[];
+    static const char PIXEL_FORMAT_YVU420P[];
+    static const char PIXEL_FORMAT_YUV420MB[];
 
     // Values for focus mode settings.
     // Auto-focus mode. Applications should call

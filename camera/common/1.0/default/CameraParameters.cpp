@@ -99,6 +99,8 @@ const char CameraParameters::KEY_VIDEO_SNAPSHOT_SUPPORTED[] = "video-snapshot-su
 const char CameraParameters::KEY_VIDEO_STABILIZATION[] = "video-stabilization";
 const char CameraParameters::KEY_VIDEO_STABILIZATION_SUPPORTED[] = "video-stabilization-supported";
 const char CameraParameters::KEY_LIGHTFX[] = "light-fx";
+const char CameraParameters::KEY_RECORD_STRIDE[] = "record-stride";
+const char CameraParameters::KEY_RECORD_SLICE_HEIGHT[] = "record-slice-height";
 
 const char CameraParameters::TRUE[] = "true";
 const char CameraParameters::FALSE[] = "false";
@@ -156,7 +158,18 @@ const char CameraParameters::SCENE_MODE_PARTY[] = "party";
 const char CameraParameters::SCENE_MODE_CANDLELIGHT[] = "candlelight";
 const char CameraParameters::SCENE_MODE_BARCODE[] = "barcode";
 const char CameraParameters::SCENE_MODE_HDR[] = "hdr";
+const char CameraParameters::SCENE_MODE_AQUA[] = "aqua";
+const char CameraParameters::SCENE_MODE_BACKLIGHT[] = "backlight";
+const char CameraParameters::SCENE_MODE_DUSKDAWN[] = "duskdawn";
+const char CameraParameters::SCENE_MODE_FALLCOLOR[] = "fallcolor";
+const char CameraParameters::SCENE_MODE_TEXT[] = "text";
 
+const char CameraParameters::PIXEL_FORMAT_YUV420SPNV12[] = "yuv420spnv12";
+const char CameraParameters::PIXEL_FORMAT_YUV420MB[] = "yuv420mb";
+const char CameraParameters::PIXEL_FORMAT_YVU422SP[] = "yvu422sp";
+const char CameraParameters::PIXEL_FORMAT_YVU422P[] = "yvu422p";
+const char CameraParameters::PIXEL_FORMAT_YVU420SP[] = "yvu420sp";
+const char CameraParameters::PIXEL_FORMAT_YVU420P[]  = "yvu420p";
 const char CameraParameters::PIXEL_FORMAT_YUV422SP[] = "yuv422sp";
 const char CameraParameters::PIXEL_FORMAT_YUV420SP[] = "yuv420sp";
 const char CameraParameters::PIXEL_FORMAT_YUV422I[] = "yuv422i-yuyv";
