@@ -68,6 +68,9 @@ interface IAGnssRil {
          */
         uint16_t lac;
 
+        /** Samsung AGPS. */
+        uint16_t psc;
+
         /** Cell id in 2G. Utran Cell id in 3G. Cell Global Id EUTRA in LTE. */
         uint32_t cid;
 
